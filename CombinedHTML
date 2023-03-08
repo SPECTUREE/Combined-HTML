@@ -1,0 +1,276 @@
+<!DOCKTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http equiv=X UA Compatible" content="IE=edge">
+<title>Alıştırma</title>
+<style>
+     div#genelYapı{
+            width: 898px;
+            border: 1px solid red;
+            margin: auto;
+            margin-top: 25px;
+        }
+        div#anaHeader{
+            width: 798px;
+            height: 80px;
+            border: 1px solid red;
+            margin: auto;
+            margin-top: 25px;
+            text-align: center;
+
+        }
+        div#içerikCerceve{
+width: 800px;
+
+margin: auto;
+margin-top: 25px;
+
+    }
+    div#anaSection{
+        width: 498px;
+
+        border: 1px solid red;
+        
+        float: left;
+
+    }
+    div#anaAside{
+        width: 273px;
+        height: 498px;
+        border: 1px solid red;
+        float: right;
+        text-align: center;
+    }
+    div#anaFooter{
+        width: 798px;
+        height: 80px;
+        border: 1px solid red;
+        margin: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    div.anaArticle{
+        width: 398px;
+        height: 200px;
+        border: 1px solid red;
+        margin: auto;
+        margin-top: 25px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        
+    }
+    h1.headerBaslik{
+        color: red;
+    }
+    p.articleP{
+        font-size: 20px;
+    }
+    .border-radius{
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+
+        </style>
+</head>
+<body>
+    <div id="genelYapı">
+        <div id="anaHeader" style="border-radius: 3px">
+            <h1 class="headerBaslik"> Burası Header Bölümü</h1>
+        </div>
+        <div id="İçerik Çerçeve">
+            <div id="anaSection">
+
+                <div class="anaArticle">
+                <h2>Makale Baslıgı</h2>
+                <p>Makale İçeriği</p>
+                </div>
+
+                <div class="AnaArticle">
+                    <h2>Makale baslıgı</h2>
+                    <p>Makale İçeriği</p>
+                    </div>
+
+                    <div class="AnaArticle">
+                        <h2>Makale Baslıgı</h2>
+                        <p class="articleP">Makale İçeriği</p>
+                    </div>
+
+
+
+
+        </div>
+        <div id="anaAside">
+            <h1>burası aside bölümü</h1>
+            </div>
+            <div style="clear:both"></div>
+            </div>
+            <div id="anaFooter">
+                <h1>Burası Footer Bölümü</h1>
+                </div>
+
+
+            </div>
+    span{
+        border: 1px solid red;
+    }
+    .city{
+            background-color: tomato;
+            color:white;
+            border: 2px solid black;
+            margin: 20px;
+            padding: 20px;
+            table,td,th {
+    border: 5px solid rgb(201, 27, 27);
+    
+   border-collapse: collapse;
+   text-align: center;
+   padding-top: 10px;
+}
+        }
+</style>
+</head>
+
+<body>
+    <form>
+        <video src="GalatasarayMac.mp4" controls autoplay>
+            Tarayıcı bu içerik türünü desteklemiyor.
+        </video>
+            <video src="GalatasarayMac.mp4" controls autoplay>
+                Tarayıcı bu içerik türünü desteklemiyor.
+                </video>
+            <audio src="GalatasarayMarsi.mp3" controls autoplay>
+                Tarayıcı bu içerik türünü desteklemiyor.
+        </audio>
+
+        <label for="name">Name</label><br>
+        <input type="text" name="name" id="name" placeholder="Adınızı yazın"><br>
+        <label for="Surname">Surname</label><br>
+        <input type="text" name="Surname" id="Surname" placeholder="Soyadını yaz"><br>
+        <label for="email">E-mail</label><br>
+        <input type="email"name="email" id="email" placeholder="Email adresini yaz"><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" placeholder="Şifrenizi girin"><br>
+        <label for="date">Date</label><br>
+        <input type="date" id="date" name="date"><br>
+        Gender<br>
+        Male
+        <input type="radio" name="gender" value="male">
+        Female
+        <input type="radio" name="gender" value="female">
+        Other
+        <input type="radio" name="gender" value="other"> <br>
+
+        <h4>Hobbies</h4> <br>
+        Tecnology
+        <input type="checkbox" name="tech" id="tech">
+        Music
+        <input type="checkbox" name="Music" id="music">
+        Art
+        <input type="checkbox" name="art" id="art"> <br>
+
+        Degree<br>
+        <select name="sınıf" id="sınıflar">
+            <option value="9.sınıf">9.Sınıf</option>
+            <option value="10.sınıf">10.Sınıf</option>
+            <option value="11.sınıf">11.Sınıf</option>
+            <option value="12.sınıf">12.Sınıf</option>
+
+            </select> <br>
+            <textarea name="adress"id="" cols="20" rows="10" placeholder="Adress Gir"></textarea> <br>
+
+            <input type="reset" value="Reset">
+
+
+            <input type="submit" value="Submit">
+            
+            <!--<button type="submit">Submit</button>-->
+            </form>
+
+            <a href="http://www.google.com.tr">Google </a><br>
+<a href="http://www.google.com.tr" target="_blank">googleyeni sekmede gider</a><br>
+<a href="http://www.google.com.tr"target="_self" title="googele gider">Google a gitmek için tıkla </a><br>
+<a href="styling.html">styling sayfasına gider </a><br>
+    <p style="font-size: large;">
+
+       <TEXT>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam placeat, at consequuntur ut aperiam reprehenderit dolorem omnis aut pariatur ullam fugiat dolores voluptas quidem laudantium impedit cumque harum corporis natus.</TEXT>
+       <div>Sen Bir Divsin</div>
+
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, dolor hic. Praesentium totam saepe aliquam dignissimos reprehenderit adipisci doloremque labore nemo iste similique! Perferendis labore iure earum architecto dolor sint possimus rerum, porro quam. Aperiam repellat commodi a esse! Quam?</p>
+   
+       <span> Bu bir span </span>
+   
+       <p>My mother has <span style="color: blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:greenyellow;font-weight:bold;">green yellow</span> eyes. </p>
+       <p style="font-size: large;">
+
+        Lorem ipsum <strong>dolor</strong> sit <small>amet</small> <mark> adipisicing </mark> elit. <em>Asperiores</em> hic.
+        
+        <div class="city">
+            <h2>London</h2>
+            <p>London is the capital of England.</p>
+                </div>
+                <div class="city">
+                <h2>Paris</h2>
+                <p>Paris is the capital of England.</p>
+            </div>
+            <div class="city">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital of Japan</p>
+            </div>
+            
+
+        
+        
+        
+        </p>
+        
+        
+        
+        
+        
+        </p>
+
+<h1> Bilge Adam </h1>
+<h2> Bilge Adam </h2>
+<h3> Bilge Adam </h3>
+<h4> Bilge Adam </h4>
+<h5> Bilge Adam </h5>
+<h6> Bilge Adam </h6>
+<body style="background-color:powderblue;">
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+<img src="data:image/jpeg;base64,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" alt="Fatih Terim" width="400" > <br> 
+<img src="./BilgeAdam.jpg"target="_blank" alt="Bilge Adam">
+<a href="http://www.google.com.tr">Google </a><br>
+<a href="http://www.google.com.tr" target="_blank">googleyeni sekmede gider</a><br>
+<a href="http://www.google.com.tr"target="_self" title="googele gider">Google a gitmek için tıkla </a><br>
+<a href="styling.html">styling sayfasına gider </a><br>
+<ul>
+    <li>Nesneler</li>
+    <li>Objeler</li>
+    <li>Yapay Zeka</li>
+    <li>Front End</li>
+    <ul>
+        <li>React</li>
+        <li>Angular</li>
+        <li>Vue</li>
+        </ul>
+
+
+    </ul>
+
+    <!--HTML5 sıralı liste-->
+    <ol type="A">
+    <li>JAVASCRİPT</li>
+<li>PYTHON</li>
+<li>JAVA</li>
+
+</ol>
+
+<ol type="1">
+<li>JAVASCRİPT</li>
+<li>PYTHON</li>
+<li>JAVA</li>
+<h1 style="color: yellow;font-family.algerian;font-size:144px;">GALATASARAY</h1>
+</body>
